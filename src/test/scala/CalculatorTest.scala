@@ -1,6 +1,6 @@
 import org.scalatest.{FlatSpec, Matchers}
 
-class MathTest extends FlatSpec with Matchers {
+class CalculatorTest extends FlatSpec with Matchers {
   private val calculator = Calculator()
 
   "The Add function" should "return 5 for adding 2, 3" in {
