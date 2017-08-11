@@ -41,7 +41,7 @@ Types of Design Patterns
 * [Creational](#creational-design-patterns)
 * [Structural](#structural-design-patterns)
 * [Behavioral](#behavioral-design-patterns)
-* [Architectural](#Architectural-design-patterns)
+* [Architectural](#architectural design patterns)
 
 Creational Design Patterns
 ==========================
@@ -2276,6 +2276,7 @@ $iosBuilder->build();
 // Assembling the ios build
 // Deploying ios build to server
 ```
+
 Architectural Design Patterns
 ==========================
 
