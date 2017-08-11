@@ -2275,13 +2275,13 @@ $iosBuilder->build();
 // Assembling the ios build
 // Deploying ios build to server
 ```
-🏠 Data Transfer Object
+🚗 Data Transfer Object
 --------------
 Real world example
 > Consider, you are interviewer and asking quetions to interviewee. Suppose you are asking interviewee about his name, last name, his hobby, qualification,  family background etc. It would be not great if you are asking these questions one by one. Rather you prefere to ask something like tell us about you. or introduce yourself. To avoid too much of questions.
 
 In plain words
-> The Transfer Object pattern is used when we want to pass data with multiple attributes in one shot from client to server.
+> The Transfer Object pattern is used when we want to pass data with multiple attributes in one shot from server to client.
 
 Wikipedia says
 > A data transfer object (DTO) is an object that carries data between processes. The motivation for its use is that communication between processes is usually done resorting to remote interfaces (e.g. web services), where each call is an expensive operation. Because the majority of the cost of each call is related to the round-trip time between the client and the server, one way of reducing the number of calls is to use an object (the DTO) that aggregates the data that would have been transferred by the several calls, but that is served by one call only.
@@ -2376,7 +2376,7 @@ public class TransferObjectPatternDemo {
    }
 }
 ```
-STEP 4: how it works!
+And it looks like (Output)
 ```text
 Student: [RollNo : 0, Name : Robert ]
 Student: [RollNo : 1, Name : John ]
