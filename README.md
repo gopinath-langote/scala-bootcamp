@@ -2286,7 +2286,7 @@ In plain words
 Wikipedia says
 > An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context.[1] Architectural patterns are similar to software design pattern but have a broader scope. The architectural patterns address various issues in software engineering, such as computer hardware performance limitations, high availability and minimization of a business risk.
 
- * [Data Transfer Object](#-Data-Transfer-Object)
+ * [Data Transfer Object](#-data-transfer-object)
 
 🚗 Data Transfer Object
 --------------
